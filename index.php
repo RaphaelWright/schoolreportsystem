@@ -2,8 +2,8 @@
 // Database connection
 $servername = "localhost"; 
 $username = "root"; 
-$password = " "; 
-$dbname = "teacher_db"; 
+$password = ""; 
+$dbname = "school_db"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -40,8 +40,9 @@ if (isset($_POST['signin'])) {
     if ($result->num_rows == 1) {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row['password'])) {
-            echo "Sign in successful";
+            echo "<script>window.location.href='tdashboard.php'</script>";
             // Redirect to dashboard or any other page
+
         } else {
             echo "Invalid username or password";
         }
