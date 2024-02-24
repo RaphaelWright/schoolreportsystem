@@ -1,0 +1,63 @@
+body{
+    margin: 0 0 0 0;
+    font-family: Calibri;
+}
+
+h3{
+    font-weight: lighter;
+
+}
+.print-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+
+.search{
+    position: absolute;
+    left: 33%;
+    margin-bottom: 100px;
+}
+
+.reportbody{
+    margin: 2.7%;
+    position: absolute;
+    top: 22%;
+    left: 15%;
+}
+
+table{
+    margin: 40px;
+    border: solid 1px black;
+}
+
+h4{
+    margin-left: 40px;
+}
+.title{
+    font-size: 3em;
+    margin: 0 0 0 0;
+}
+
+p{
+    margin-left: 40px;
+}
+
+input[type= "submit"]{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+    font-size: larger;
+    padding: 5px;
+}

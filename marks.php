@@ -74,10 +74,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h2>Enter Student Marks</h2>
         <form method="post">
 
-            <label for="student_number">Student Number:</label><br>
-            <input type="text" id="student_number" name="student_number" required><br><br>
+            <label for="student_number">Student Number</label>
+            <input type="text" id="student_number" name="student_number" required>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 
-            <label for="student_name">Student Name:</label><br>
+            <label for="student_name">Student Name</label>
             <input type="text" id="student_name" name="student_name" required><br><br>
 
             <p>
@@ -90,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <p>
                 <span>
-                    <label for="maths">Maths:</label>
+                    <label for="maths">Maths</label>
                     <input type="text" id="maths" name="maths_cs" placeholder="Class Score">
                     <input type="text" id="maths" name="maths_es" placeholder="Exam Score"><br>
                 </span>
@@ -98,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <p>
                 <span>
-                    <label for="science">Science:</label>
+                    <label for="science">Science</label>
                     <input type="text" id="science" name="science_cs" placeholder="Class Score">
                     <input type="text" id="science" name="science_es" placeholder="Exam Score"><br>
                 </span>
@@ -106,14 +106,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <p>
                 <span>
-                    <label for="owop">Owop:</label>
+                    <label for="owop">OWOP</label>
                     <input type="text" id="owop" name="owop_cs" placeholder="Class Score">
                     <input type="text" id="owop" name="owop_es" placeholder="Exam Score"><br>
                 </span>
             </p>
             <p>
                 <span>
-                    <label for="arts">Arts:</label>
+                    <label for="arts">Arts</label>
                     <input type="text" id="arts" name="arts_cs" placeholder="Class Score">
                     <input type="text" id="arts" name="arts_es" placeholder="Exam Score"><br>
                 </span>
@@ -121,7 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <p>
                 <span>
-                    <label for="history">History:</label>
+                    <label for="history">History</label>
                     <input type="text" id="history" name="history_cs" placeholder="Class Score">
                     <input type="text" id="history" name="history_es" placeholder="Exam Score"><br>
                 </span>
@@ -129,7 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <p>
                 <span>
-                    <label for="french">French:</label>
+                    <label for="french">French</label>
                     <input type="text" id="french" name="french_cs" placeholder="Class Score">
                     <input type="text" id="french" name="french_es" placeholder="Exam Score"><br>
                 </span>
@@ -137,7 +137,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <p>
                 <span>
-                    <label for="ict">ICT:</label>
+                    <label for="ict">ICT</label>
                     <input type="text" id="ict" name="ict_cs" placeholder="Class Score">
                     <input type="text" id="ict" name="ict_es" placeholder="Exam Score"><br>
                 </span>
@@ -145,7 +145,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <p>
                 <span>
-                    <label for="twiga">Twi/Ga:</label>
+                    <label for="twiga">Twi/Ga</label>
                     <input type="text" id="twiga" name="twiga_cs" placeholder="Class Score">
                     <input type="text" id="twiga" name="twiga_es" placeholder="Exam Score"><br>
                 </span>
