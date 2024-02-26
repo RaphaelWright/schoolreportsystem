@@ -1,3 +1,4 @@
+//enter students marks
 <?php
 // Database connection
 $servername = "localhost";
